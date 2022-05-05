@@ -16,6 +16,7 @@ public class AuthTest {
         open("http://localhost:9999");
     }
 
+
     @Test
     void happyPath() {
         var validUser = getActiveRegisteredUser();
